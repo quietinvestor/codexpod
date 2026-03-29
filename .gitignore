@@ -1,0 +1,4 @@
+/volumes/*
+!/volumes/codex/
+/volumes/codex/*
+!/volumes/codex/config.toml

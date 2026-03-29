@@ -1,0 +1,16 @@
+#:schema https://developers.openai.com/codex/config-schema.json
+
+approval_policy = "untrusted"
+file_opener = "none"
+sandbox_mode = "workspace-write"
+
+[projects."/home/codex/projects"]
+trust_level = "trusted"
+
+[shell_environment_policy]
+ignore_default_excludes = true
+include_only = ["HOME", "PATH", "SHELL", "TERM", "TMPDIR", "USER"]
+inherit = "none"
+
+[plugins."github@openai-curated"]
+enabled = true
