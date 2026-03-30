@@ -39,7 +39,7 @@ RUN groupadd --gid 1001 codex \
 
 USER codex
 
-RUN cat >> /home/codex/.bashrc <<'EOF'
+RUN cat >> /home/codex/.bash_profile <<'EOF'
 
 if [ -d /home/codex/.secrets ]; then
     for file in /home/codex/.secrets/*; do
