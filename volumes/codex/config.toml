@@ -14,6 +14,9 @@ enabled = true
 [projects."/home/codex/projects"]
 trust_level = "trusted"
 
+[sandbox_workspace_write]
+network_access = true
+
 [shell_environment_policy]
 ignore_default_excludes = true
 include_only = ["HOME", "PATH", "SHELL", "TERM", "TMPDIR", "USER"]
