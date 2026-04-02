@@ -1,7 +1,7 @@
 .PHONY: build codex down rebuild shell up
 
 CONTAINER := codex-codex
-IMAGE := localhost/codex:0.1.0
+IMAGE := localhost/codex:0.1.1
 MANIFEST := podman/codex.yaml
 ROOT_DIR := $(CURDIR)
 

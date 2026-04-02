@@ -4,7 +4,7 @@ metadata:
   name: codex
 spec:
   containers:
-    - image: localhost/codex:0.1.0
+    - image: localhost/codex:0.1.1
       name: codex
       resources:
         limits:
