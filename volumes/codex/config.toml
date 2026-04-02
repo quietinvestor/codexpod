@@ -21,3 +21,17 @@ network_access = true
 ignore_default_excludes = true
 include_only = ["HOME", "PATH", "SHELL", "TERM", "TMPDIR", "USER"]
 inherit = "none"
+
+[tui]
+status_line = [
+  "model-with-reasoning",
+  "current-dir",
+  "context-remaining",
+  "context-window-size",
+  "total-input-tokens",
+  "total-output-tokens",
+  "used-tokens",
+  "five-hour-limit",
+  "weekly-limit",
+  "session-id",
+]
