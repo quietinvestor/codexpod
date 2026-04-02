@@ -8,9 +8,6 @@ sandbox_mode = "workspace-write"
 bearer_token_env_var = "GITHUB_TOKEN"
 url = "https://api.githubcopilot.com/mcp/"
 
-[plugins."github@openai-curated"]
-enabled = true
-
 [projects."/home/codex/projects"]
 trust_level = "trusted"
 
