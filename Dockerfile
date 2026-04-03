@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install --yes --no-install-recommends \
     libatomic1=14.2.0-4ubuntu2~24.04.1 \
     netcat-openbsd=1.226-1ubuntu2 \
     openssl=3.0.13-0ubuntu3.7 \
+    ripgrep=14.1.0-1 \
     traceroute=1:2.1.5-1 \
     unzip=6.0-28ubuntu4.1 \
     xz-utils=5.6.1+really5.4.5-1ubuntu0.2 \
