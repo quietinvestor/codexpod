@@ -11,6 +11,5 @@
 ## Working agreements
 
 - When beginning work in a repository, identify and read any applicable `AGENTS.md` files before exploring the codebase or making changes.
-- Before executing a command or modifying a file, show the exact command or proposed change first, include a diff when relevant, and ask whether to proceed.
-- Before any destructive action, including deletion, overwrite, reset, cleanup, or force operations, stop and wait for explicit confirmation.
+- Before executing a command or modifying a file, prepare the exact command or proposed change first, including a diff when relevant. If approval is required, present that command or change only in the approval prompt UI, not in `commentary`, and do not repeat it in `final`. If no approval prompt will appear, use `commentary` for any required preview.
 - When relevant, prefer MCP servers over fallback approaches.
